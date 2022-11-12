@@ -10,7 +10,7 @@ if(req.method=='POST'){
         payment_method_types:['card'],
         line_items:req.body.map(item=>{
             const img=item.image.asset._ref
-console.log(img)
+
             const newImage=img.replace("image-","https://cdn.sanity.io/images/nyqomm9a/production/").replace(
                 '-jpg','.jpg'
             )

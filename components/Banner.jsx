@@ -11,7 +11,7 @@ export default function Banner() {
        
 
         <div className='relative grid grid-cols-1 w-full '>
-            <Image src={bannerPizza} alt="" layout='' objectFit='cover' width={500} height={500} className=''/>
+            <Image src={bannerPizza} priority alt="" layout='' objectFit='cover' width={500} height={500} className=''/>
         </div>
         <div className='flex absolute left-20 mt-20 flex-col'>
             <div className='flex flex-col gap-y-2 p-2 text-white'>
