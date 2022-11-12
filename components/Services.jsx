@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Services() {
     const deliveryData=[
         {
             title:"Quick Delivery",
-            image:"https://icon-library.com/images/deliver-icon/deliver-icon-7.jpg",
+            image:"https://www.pngall.com/wp-content/uploads/12/Delivery-PNG-Background.png",
             detail:"Time is money, money is time, the faster we deliver the more you make"
         },
         {
@@ -14,7 +15,7 @@ export default function Services() {
         },
         {
             title:"Easy Order",
-            image:"https://icon-library.com/images/fine-dining-icon/fine-dining-icon-0.jpg",
+            image:"https://globalstrays.org/wp-content/uploads/2022/08/food-icon.png",
             detail:"Time is money, money is time, the faster we deliver the more you make"
         },
         
@@ -40,9 +41,11 @@ export default function Services() {
                     // <div className='flex'>
                     <div class="flex justify-center flex-col items-center mt-8 ">
                         
-                        <img class=""src={item.image} width="120px"></img>
-                        <div className='w-1/2'>
-                            <h2 class="text-center sm:text-xl text-lg font-extrabold">{item.title}</h2>
+                        <div className='w-[120px] h-[100px]'>
+                        <Image class=""src={item.image} layout="responsive" width={2} height={2} objectFit='contain' className=""/>
+                        </div>
+                        <div className='w-1/2 mt-4'>
+                            <h2 class="text-center sm:text-xl text-lg font-bold">{item.title}</h2>
                             <p class="text-center  font-semibold text-gray-400">{item.detail}</p>
                             </div>
                         </div>

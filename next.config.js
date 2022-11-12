@@ -6,7 +6,7 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ["static.wixstatic.com","pizzaolive.in","encrypted-tbn0.gstatic.com" ],
+    domains: ["static.wixstatic.com","pizzaolive.in","encrypted-tbn0.gstatic.com","globalstrays.org" ,"www.pngall.com" ,"superfreshkitchens.com"  ],
 
   },
 }
